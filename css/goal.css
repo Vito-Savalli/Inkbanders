@@ -1,0 +1,100 @@
+.goal__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.goal__text-box {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.goal__subtitle {
+  font-size: 5rem;
+  margin-bottom: 2rem;
+  line-height: 1.1;
+  width: 100%;
+}
+
+.goal__text {
+  font-size: 2rem;
+  width: 80%;
+}
+
+.goal__img-box {
+  width: 30%;
+}
+
+.goal__img {
+  max-width: 100%;
+}
+
+.goal__video {
+  max-width: 100%;
+}
+
+/* CTA */
+.cta {
+  background-color: var(--white);
+  width: 100%;
+  display: flex;
+  height: 8rem;
+}
+
+.cta__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  padding: 2rem 0;
+  position: relative;
+  transition: all 0.4s;
+  border-bottom: 1px solid black;
+}
+
+.cta__icon {
+  color: var(--black);
+  font-size: 4rem;
+  font-weight: 600;
+  position: absolute;
+  transition: all 0.4s;
+}
+
+.cta__text {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  color: var(--body-bg);
+  position: absolute;
+  transition: all 0.4s;
+  transform: translateY(150%);
+}
+
+.cta__box-left:hover .cta__icon {
+  transform: translateY(-150%);
+}
+
+.cta__box-left:hover .cta__text {
+  transform: translateY(0);
+}
+
+.cta__box-left:hover {
+  background-color: #e0dad1;
+  cursor: pointer;
+}
+
+.cta__box-right:hover .cta__icon {
+  transform: translateY(-150%);
+}
+
+.cta__box-right:hover .cta__text {
+  transform: translateY(0);
+}
+
+.cta__box-right:hover {
+  background-color: #e0dad1;
+  cursor: pointer;
+}

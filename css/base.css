@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: var(--fontc);
+}
+
+body {
+  background-color: var(--body-bg);
+  color: var(--white);
+  overflow-x: hidden;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.remove-scroll {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}

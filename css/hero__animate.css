@@ -1,0 +1,374 @@
+/* LETTER */
+/*  */
+@-webkit-keyframes ink-animate {
+  0% {
+    opacity: 0;
+    top: 15%;
+    left: 13%;
+  }
+
+  33% {
+    opacity: 1;
+    top: 0%;
+    left: 13%;
+  }
+}
+
+@keyframes ink-animate {
+  0% {
+    opacity: 0;
+    top: 15%;
+    left: 13%;
+  }
+
+  33% {
+    opacity: 1;
+    top: 0%;
+    left: 13%;
+  }
+}
+
+@-webkit-keyframes br-animate {
+  0% {
+    opacity: 0;
+    top: 15%;
+    left: 87%;
+  }
+
+  33% {
+    opacity: 1;
+    top: 0%;
+    left: 87%;
+  }
+
+  66% {
+    top: 0%;
+    left: 34%;
+  }
+}
+
+@keyframes br-animate {
+  0% {
+    opacity: 0;
+    top: 15%;
+    left: 87%;
+  }
+
+  33% {
+    opacity: 1;
+    top: 0%;
+    left: 87%;
+  }
+
+  66% {
+    top: 0%;
+    left: 34%;
+  }
+}
+
+@-webkit-keyframes and-1-animate {
+  0% {
+    opacity: 0;
+    left: 21%;
+    bottom: 10%;
+  }
+
+  33% {
+    opacity: 1;
+    left: 11%;
+    bottom: 0;
+  }
+
+  34% {
+    opacity: 0;
+  }
+}
+
+@keyframes and-1-animate {
+  0% {
+    opacity: 0;
+    left: 16%;
+    bottom: 10%;
+  }
+
+  33% {
+    opacity: 1;
+    left: 16%;
+    bottom: 0;
+  }
+
+  34% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes and-2-animate {
+  0% {
+    opacity: 0;
+    bottom: 0;
+    left: 16%;
+  }
+
+  33% {
+    opacity: 0;
+    bottom: 0;
+    left: 16%;
+  }
+
+  34% {
+    opacity: 1;
+    bottom: 0;
+    left: 16%;
+  }
+
+  66% {
+    opacity: 1;
+    left: 57%;
+    bottom: 0;
+  }
+
+  67% {
+    opacity: 0;
+  }
+}
+
+@keyframes and-2-animate {
+  0% {
+    opacity: 0;
+    bottom: 0;
+    left: 16%;
+  }
+
+  33% {
+    opacity: 0;
+    bottom: 0;
+    left: 16%;
+  }
+
+  34% {
+    opacity: 1;
+    bottom: 0;
+    left: 16%;
+  }
+
+  66% {
+    opacity: 1;
+    left: 57%;
+    bottom: 0;
+  }
+
+  67% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes and-3-animate {
+  0% {
+    opacity: 0;
+    top: 70%;
+  }
+
+  33% {
+    opacity: 0;
+    top: 70%;
+  }
+
+  66% {
+    opacity: 0;
+    top: 70%;
+  }
+
+  67% {
+    opacity: 1;
+  }
+}
+
+@keyframes and-3-animate {
+  0% {
+    opacity: 0;
+    top: 70%;
+  }
+
+  33% {
+    opacity: 0;
+    top: 70%;
+  }
+
+  66% {
+    opacity: 0;
+    top: 70%;
+  }
+
+  67% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes ers-1-animate {
+  0% {
+    opacity: 0;
+    bottom: 10%;
+    left: 83%;
+  }
+
+  33% {
+    opacity: 1;
+    bottom: 0%;
+    left: 83%;
+  }
+
+  66% {
+    opacity: 1;
+    bottom: 0%;
+    left: 83%;
+  }
+
+  67% {
+    opacity: 0;
+  }
+}
+
+@keyframes ers-1-animate {
+  0% {
+    opacity: 0;
+    bottom: 10%;
+    left: 83%;
+  }
+
+  33% {
+    opacity: 1;
+    bottom: 0%;
+    left: 83%;
+  }
+
+  66% {
+    opacity: 1;
+    bottom: 0%;
+    left: 83%;
+  }
+
+  67% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes ers-2-animate {
+  0% {
+    opacity: 0;
+    top: 70%;
+    left: 83%;
+  }
+
+  33% {
+    opacity: 0;
+    top: 70%;
+    left: 83%;
+  }
+
+  66% {
+    opacity: 0;
+    top: 70%;
+    left: 83%;
+  }
+
+  67% {
+    opacity: 1;
+  }
+}
+
+@keyframes ers-2-animate {
+  0% {
+    opacity: 0;
+    top: 70%;
+    left: 83%;
+  }
+
+  33% {
+    opacity: 0;
+    top: 70%;
+    left: 83%;
+  }
+
+  66% {
+    opacity: 0;
+    top: 70%;
+    left: 83%;
+  }
+
+  67% {
+    opacity: 1;
+  }
+}
+
+/*  */
+/* BACKGROUND */
+/*  */
+@-webkit-keyframes bg-animate {
+  0% {
+    opacity: 1;
+  }
+
+  33% {
+    opacity: 1;
+  }
+
+  66% {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(700px);
+    transform: translateY(700px);
+  }
+}
+
+@keyframes bg-animate {
+  0% {
+    opacity: 1;
+  }
+
+  33% {
+    opacity: 1;
+  }
+
+  66% {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(700px);
+    transform: translateY(700px);
+  }
+}
+
+@-webkit-keyframes hero__text {
+  0% {
+    opacity: 0;
+  }
+
+  79% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 1;
+  }
+}
+
+@keyframes hero__text {
+  0% {
+    opacity: 0;
+  }
+
+  79% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 1;
+  }
+}

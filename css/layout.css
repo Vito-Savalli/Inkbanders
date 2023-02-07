@@ -1,0 +1,47 @@
+.section {
+  padding: 6rem 8rem;
+  position: relative;
+  background-color: var(--black);
+}
+
+.section__title {
+  font-size: 10rem;
+  text-transform: uppercase;
+  margin-bottom: 4rem;
+}
+
+.section__underlined {
+  height: 0.8rem;
+  background-color: var(--white);
+  width: 50%;
+  border-radius: 10px;
+  left: 0;
+  top: -2%;
+}
+
+.section__bg {
+  height: 80vh;
+  width: 100%;
+  position: relative;
+  background-image: url("../img/tattoo2.jpg");
+  background-color: transparent;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+.section__bg-img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.section__galerie {
+  width: 100%;
+  height: 100vh;
+  border: 3px solid yellow;
+}
+
+.section__goal {
+  display: flex;
+  gap: 5rem;
+  flex-direction: column;
+}

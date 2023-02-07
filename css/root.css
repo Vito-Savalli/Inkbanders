@@ -1,0 +1,13 @@
+:root {
+  --white: #ece4d8;
+  --black: #000000;
+  --green: #1cc524;
+  --body-bg: #121714;
+  --first-bg: #1a1a1a;
+  --dark-grey: rgb(63, 62, 62);
+  --fontb: "Kaushan Script", sans-serif;
+  --fontc: "Capriola", sans-serif;
+  --borderFormEls: hsl(0, 0%, 10%);
+  --bgFormEls: hsl(0, 0%, 14%);
+  --bgFormElsFocus: hsl(90, 3%, 28%);
+}
